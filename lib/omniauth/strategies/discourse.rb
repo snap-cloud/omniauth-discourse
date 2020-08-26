@@ -40,6 +40,8 @@ module OmniAuth
           "name" => user_info[:name],
           "email" => user_info[:email],
           "nickname" => user_info[:username],
+          "avatar" => user_info[:avatar_url],
+          "background" => user_info[:card_background_url],
         }
       end
 
@@ -47,6 +49,7 @@ module OmniAuth
         {
           "admin" => user_info[:admin] == "true",
           "moderator" => user_info[:moderator] == "true",
+          "groups" => user_info[:groups],
         }
       end
     end

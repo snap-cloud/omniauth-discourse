@@ -1,4 +1,5 @@
 require "securerandom"
+require "addressable"
 
 module OmniAuth
   module Strategies
