@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.homepage = "https://github.com/linuxuser-gr/omniauth-discourse"
   gem.license = "MIT"
 
-  gem.add_dependency "omniauth", "~> 1.9", ">= 1.9.1"
+  gem.add_dependency "omniauth", "~> 2.0"
   gem.add_dependency "addressable", "~> 2.7"
   gem.add_dependency "rack"
 
